@@ -28,6 +28,10 @@
 		<members>User.Slack_User_ID__c</members>
 		<name>CustomField</name>
 	</types>
+    <types>
+		<members>Recognition_Profile_Record_Page</members>
+		<name>FlexiPage</name>
+	</types>
 	<types>
 		<members>Recognition_Badge_Type__c</members>
 		<members>Recognition_Badge__c</members>
