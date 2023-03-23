@@ -54,9 +54,5 @@
 		<members>Recognition_Profile__c.All</members>
 		<name>ListView</name>
 	</types>
-	<types>
-		<members>Admin</members>
-		<name>Profile</name>
-	</types>
 	<version>55.0</version>
 </Package>
