@@ -45,6 +45,7 @@
 	<types>
 		<members>Recognition_Badge_Type__c-Recognition Badge Type Layout</members>
 		<members>Recognition_Badge__c-Recognition Badge Layout</members>
+		<members>Recognition_Profile__c-Recognition Profile Layout</members>
 		<name>Layout</name>
 	</types>
 	<types>
