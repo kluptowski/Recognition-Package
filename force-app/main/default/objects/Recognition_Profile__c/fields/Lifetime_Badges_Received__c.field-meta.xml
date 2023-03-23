@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lifetime_Badges_Received__c</fullName>
+    <description>Count (not unique) of tally with how many they&apos;ve received</description>
+    <externalId>false</externalId>
+    <inlineHelpText>How many of all of these have you received</inlineHelpText>
+    <label>Lifetime Badges Received</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

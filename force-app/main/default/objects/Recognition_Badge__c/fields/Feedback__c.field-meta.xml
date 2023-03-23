@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Feedback__c</fullName>
+    <externalId>false</externalId>
+    <formula>MID(
+    Message_Long__c, 
+    FIND(&quot;/4/&quot;,  Message_Long__c ) + 3, 
+    FIND(&quot;/4/&quot;, RIGHT(Message_Long__c, LEN(Message_Long__c) - FIND(&quot;/4/&quot;, Message_Long__c)))-3
+  )
+
+/*MID(
+    Message__c, 
+    FIND(&quot;/4/&quot;,  Message__c ) + 3, 
+    FIND(&quot;/4/&quot;, RIGHT(Message__c, LEN(Message__c) - FIND(&quot;/4/&quot;, Message__c)))
+  ) */</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Feedback</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
